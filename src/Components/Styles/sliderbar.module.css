@@ -1,0 +1,40 @@
+/*Slider Bar*/
+.slider_bar_container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.slider_bar_title_card{
+  height: 300px;
+  width: 700px;
+  display: flex;
+  flex-direction:column;
+}
+
+.slider_bar_title{
+  justify-self: center;
+  align-self: center;
+  transition-duration: 0.5s;
+  background-color: lightblue;
+}
+
+.slider_bar_preview{
+  justify-self: center;
+  align-self: flex-start;
+  margin-left: 175px;
+  width: 175px;
+  transition-duration: 0.5s;
+  background-color: lightcoral;
+}
+
+.slider_bar_title_card:hover .slider_bar_title{
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.slider_bar_title_card:hover .slider_bar_preview{
+  justify-self: flex-start;
+  align-self: flex-start;
+  width: 525px;
+  margin-left: 0;
+}
