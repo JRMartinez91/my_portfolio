@@ -14,15 +14,16 @@ class SliderBar extends Component{
         return(
             <div className={styles.slider_bar_container}>
                 <div className={styles.slider_bar_title_card}>
-                    <div classname={styles.slider_bar_preview}>
+                    <div className={styles.slider_bar_preview}>
                         <img alt="preview"/>
+                        <p>Summary goes here.</p>
                     </div>
-                    <div classname={styles.slider_bar_title}>
-                        <p>Sample Title</p>
+                    <div className={styles.slider_bar_title}>
+                        <p>{this.props.title}</p>
                     </div>
-                </div>
-                <div className={styles.slider_bar_fullview}>
-
+                    {/* <div className={styles.slider_bar_fullview}>
+                        <img alt="screenshot"/>
+                    </div> */}
                 </div>
             </div>
         )

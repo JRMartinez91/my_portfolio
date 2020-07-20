@@ -10,45 +10,8 @@ class Homepage extends Component {
         return(
             <>
             <h1>Homepage</h1>
-            <div className="linkbox-wrapper">
-                <div className="linkbox">
-                    <Link to="/projects">
-                        <div className="link-image">
-                            <div className="link-image-bg"></div>
-                            <img alt="Projects"/>
-                            <p>Projects</p>
-                        </div>
-                    </Link>
-                    <Link to="/bio">
-                        <div className="link-image">
-                            <div className="link-image-bg"></div>
-                            <img alt="Bio"/>
-                            <p>Bio</p>
-                        </div>
-                    </Link>
-                    <Link to="/resume">
-                        <div className="link-image">
-                            <div className="link-image-bg"></div>
-                            <img alt="Resume"/>
-                            <p>Links</p>
-                        </div>
-                    </Link>
-                    <Link to="/contact">
-                        <div className="link-image">
-                            <div className="link-image-bg"></div>
-                            <img alt="Contact"/>
-                            <p>Contact</p>
-                        </div>
-                    </Link>
-                    <Link to="/links">
-                        <div className="link-image">
-                            <div className="link-image-bg"></div>
-                            <img alt="Links"/>
-                            <p>Links</p>
-                        </div>
-                    </Link>
-                </div>
-            </div>
+
+           
             </>
         )
     }
