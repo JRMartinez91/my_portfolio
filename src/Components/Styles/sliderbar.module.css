@@ -1,8 +1,10 @@
 /*Slider Bar*/
 .slider_bar_container{
-    width: 100vw;
+    width: 80%;
     /* display: flex; */
     /* justify-content: center; */
+    margin: 0 auto 50px auto;
+    border-bottom: 1px solid white;
 }
 .slider_bar_title_card{
   height: 300px;
@@ -19,19 +21,21 @@
   transition-duration: 0.5s;
   background-color: lightblue;
   width: 525px;
-  height: 100px;
+  height: 70px;
   position:absolute;
   margin-top:100px;
   margin-left:87px;
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+  background: linear-gradient(0.37turn,white,transparent 85%);
 }
 
 .slider_bar_title p{
     color:white;
-    font-family: serif;
     font-size: 40px;
     line-height: 1em;
-    margin-top: 25px;
+    margin-top: 15px;
     text-align:center;
+    text-shadow: 2px 2px 5px black;
 }
 
 .slider_bar_preview{
@@ -42,7 +46,8 @@
   height: 200px;
   margin-top: 50px;
   position:absolute;
-  color: rgba(255,255,255,0)
+  color: rgba(255,255,255,0);
+  background: linear-gradient(rgb(70,72,80),transparent);
 }
 
 .slider_bar_fullview{
