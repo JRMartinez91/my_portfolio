@@ -8,9 +8,15 @@
 
 .resume_wrapper h2, .resume_wrapper h1{
     text-align:center;
-    width: 90%;
     border-bottom: 1px solid white;
+}
 
+.resume_wrapper h1{
+    width: 90%;
+}
+
+.resume_wrapper h2{
+    width: 70%;
 }
 
 .resume_list{
@@ -18,3 +24,18 @@
     margin: 0 auto;
 }
 
+.resume_list * {
+    margin: 5px 0;
+}
+
+.resume_list li{
+    margin-bottom: 30px;
+}
+
+.resume_list p {
+    padding-left: 5%;
+}
+
+.resume_list h4{
+    color: rgba(255,255,255,0.5);
+}

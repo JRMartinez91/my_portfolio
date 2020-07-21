@@ -168,3 +168,29 @@ nav a:hover{
   width: 525px;
   margin-left: 0;
 } */
+main h1{
+  max-width: 870px;
+  border-bottom: 1px solid white;
+  text-align:center;
+  margin: 40px auto;
+}
+/* footer */
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  min-height: calc(100vh - 100px);
+}
+
+footer{
+  height: 100px;
+  background-color: rgb(55, 58, 59);
+  border-top: 1px solid white;
+  margin-top: 50px;
+  padding-top: 50px;
+  text-align:center;
+  font-size: 12px;
+  justify-self: flex-end;
+}
+

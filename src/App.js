@@ -11,6 +11,7 @@ class App extends Component {
   render(){
     return (
       <Router>
+        <div className="wrapper">
         <header>
         <h1><p>J</p><p>a</p><p>m</p><p>e</p><p>s</p><p> </p><p>M</p><p>a</p><p>r</p><p>t</p><p>i</p><p>n</p><p>e</p><p>z</p></h1>
         <h2>Fullstack Web Developer</h2>
@@ -43,6 +44,10 @@ class App extends Component {
             <Route path="/home" component={Homepage}/>
           </Switch>
         </main>
+      </div>
+        <footer>
+          <p>&copy; James Martinez, 2020</p>
+        </footer>
       </Router>
     );
   }

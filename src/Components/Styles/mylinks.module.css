@@ -1,0 +1,25 @@
+.links_box{
+    display: flex;
+    justify-content: center;
+}
+
+.links_box div{
+    height: 300px;
+    width: 225px;
+    border: 1px solid gray;
+    margin: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links_box a{
+    text-decoration: none;
+}
+
+.links_box img{
+    height: 180px;
+    width: 180px;
+    border: 1px solid gray;
+}
