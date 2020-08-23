@@ -15,7 +15,7 @@ class MyLinks extends Component{
                     <img className={styles.linkedin_logo} src="images/LI-in-Bug.png" alt="linkedin logo"/>
                     <h2>Linkedin</h2>
                 </div></a>
-                <a href="https://medium.com/@jrmartinez3d"><div>
+                <a href="https://medium.com/@jrmartinez3d" target="_blank"><div>
                     <img src="images/Monogram.png" alt="medium logo"/>
                     <h2>Medium</h2>
                 </div></a>
