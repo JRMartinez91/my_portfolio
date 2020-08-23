@@ -2,7 +2,7 @@
   "name": "my_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jrmartinez91.github.io/my_portfolio",
+  "homepage": ".",
   "dependencies": {
     "@babel/runtime": "^7.11.2",
     "@testing-library/jest-dom": "^4.2.4",
