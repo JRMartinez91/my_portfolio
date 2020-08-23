@@ -19,7 +19,7 @@ class Projects extends Component {
                 backgroundURL="https://i.imgur.com/mV3iJo1.png"/>
             <SliderBar title="Sample Library Database"
                 blurb={
-                    <p>An example of a database system designed for use by a library of some sort. Built with Ruby on Rails and PostgreSQL, it tracks users, book, and checkout dates.</p>}
+                    <><p>An example of a database system designed for use by a library of some sort. Built with Ruby on Rails and PostgreSQL, it tracks users, book, and checkout dates.</p><p>Coming Soon!</p></>}
                 />
             </>
         )
