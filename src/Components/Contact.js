@@ -10,7 +10,7 @@ class Contact extends Component {
             <h1 className={styles.about_title}>About Me</h1>
             <div className={styles.about_wrapper}>
                 <div className={styles.photo_box}>
-                    <img alt="photo of me"/>
+                    <img src="https://i.imgur.com/2fYqvrh.jpg" alt="photo of me"/>
                 </div>
                 <div className={styles.contact_box}>
                     <p>Web developer with a background in visual art and design, bringing creative
