@@ -17,10 +17,16 @@ class Projects extends Component {
                 </p></>}
                 externalLink="https://marvelous-musical-automat.herokuapp.com/tracklist"
                 backgroundURL="https://i.imgur.com/mV3iJo1.png"/>
-            <SliderBar title="Sample Library Database"
+            {/* <SliderBar title="Sample Library Database"
                 blurb={
                     <><p>An example of a database system designed for use by a library of some sort. Built with Ruby on Rails and PostgreSQL, it tracks users, book, and checkout dates.</p><p>Coming Soon!</p></>}
                 />
+            */}
+            <SliderBar title="Interactive Signmaker"
+                blurb={<><p>Interactive Signmaker is a widget that allows users to create custom signs and labels. Choose from a selection of templates and add text with custom colors, sizes, and fonts, then download your sign as an image.
+                </p></>}
+                externalLink="https://jrm-signmaker.herokuapp.com/"
+                backgroundURL="https://i.imgur.com/mV3iJo1.png"/>
             </>
         )
     }
