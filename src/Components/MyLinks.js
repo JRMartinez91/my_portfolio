@@ -24,7 +24,7 @@ class MyLinks extends Component{
             <div className={styles.links_box}>
                 <a href="https://jrmartinez3d.wixsite.com/gallery" target="_blank"><div>
                         <img src="images/compass image.png" alt="art logo"/>
-                        <h2>Medium</h2>
+                        <h2>Gallery</h2>
                     </div></a>
             </div>
             </>
