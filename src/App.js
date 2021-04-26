@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom'
+import {BrowserRouter as Router,Switch,Route,Link,Redirect} from 'react-router-dom'
 import './App.css';
 import Homepage from './Components/Homepage'
 import Projects from './Components/Projects'
@@ -42,6 +42,9 @@ class App extends Component {
             <Route path="/links" component={MyLinks}/>
             <Route path="/projects" component={Projects}/>
             <Route path="/home" component={Homepage}/>
+            <Route path="/">
+              <Redirect to="/home"/>
+            </Route>
           </Switch>
         </main>
       </div>
